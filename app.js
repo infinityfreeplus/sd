@@ -23,16 +23,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function loadState() {
 
-    $("#landing").load("state-landing.html")
-    // let land = document.getElementById("landing");
-    // land.innerHTML = `<div class="crop">
-    // <img
-    // id="state-image"
-    // src="/images/matan-levanon-Ipv1Ms0-uQ-unsplash.jpg"
-    // alt="Road heading towards the Badlands in South Dakota"
-    // />
-    // </div>`
-    // console.log("land ho!", land)
+    // $("#landing").load("state-landing.html")
+    let land = document.getElementById("landing");
+    land.innerHTML = `<div class="crop">
+    <img
+    id="state-image"
+    src="images/matan-levanon-Ipv1Ms0-uQ-unsplash.jpg"
+    alt="Road heading towards the Badlands in South Dakota"
+    />
+    </div>`
+    console.log("land ho!", land)
 
     $("#title").load("state-title.html")
     $('#sections').load("state-sections.html")
